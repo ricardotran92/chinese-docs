@@ -1,0 +1,43 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Tự động chạy khi push lên nhánh main
+  workflow_dispatch:  # Cho phép chạy thủ công từ tab Actions
+
+permissions:
+  contents: write  # Cho phép ghi vào branch gh-pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs
+          pip install mkdocs-material
+          pip install mkdocs-macros-plugin
+          pip install mdx-include
+          pip install markdown_include_variants
+          pip install mkdocs-redirects
+          pip install mkdocstrings[python]
+          pip install griffe-typingdoc          
+          pip install markdown-include
+          pip install mkdocs-markdown-filter
+          
+          
+
+
+      - name: Build and deploy
+        run: |
+          mkdocs gh-deploy --force
