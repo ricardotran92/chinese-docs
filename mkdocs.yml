@@ -103,8 +103,13 @@ nav:
   - WordNet: dictionaries/wordnet.md
 - Speaking:
   - IPA guide: speaking/ipa-guide.md
+- Pinyin:
+  - 01-GioiThieuVePhienAm: pinyin/01-gioithieuvephienam.md  
+  - 02-ThanhDieu: pinyin/02-thanhdieu.md
 - Vocabulary:
   - L1-1-GioiThieuBanThan: vocabulary/l1-1-gioithieubanthan.md
+- Grammar:
+  - L1-2-HoiVeNgheNghiep: grammar/l1-2-hoivenghenghiep.md
   
 
 markdown_extensions:
