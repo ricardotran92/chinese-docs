@@ -40,6 +40,9 @@
 - <button onclick="speakNormal('你叫李明')">**你叫李明。** (Nǐ jiào Lǐ Míng.)</button>
 - _Vietnamese:_ Bạn tên là Lý Minh.
 
+- <button onclick="speakNormal('我叫肖明')">**我叫肖明。** (Wǒ jiào Xiǎo Míng.)</button>
+- _Vietnamese:_ Tôi tên là Tiêu Minh.
+
 ---
 
 #### **3. Combined Example (Ví dụ tổng hợp)**

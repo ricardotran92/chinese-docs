@@ -1,7 +1,7 @@
 INHERIT: mkdocs.maybe-insiders.yml
 site_name: Personal Docs
 site_description: Personal documentation - Micro-monolith, Database, and more
-site_url: https://github.com/ricardotran92
+site_url: https://ricardotran92.github.io/chinese-docs/
 use_directory_urls: false # To get img locations easily
 
 theme:
@@ -103,8 +103,18 @@ nav:
   - WordNet: dictionaries/wordnet.md
 - Speaking:
   - IPA guide: speaking/ipa-guide.md
+- Pinyin:
+  - 01-GioiThieuVePhienAm: pinyin/01-gioithieuvephienam.md  
+  - 02-ThanhDieu: pinyin/02-thanhdieu.md
+  - 03-ThanhMau: pinyin/03-thanhmau.md
 - Vocabulary:
-  - L1-1-GioiThieuBanThan: vocabulary/l1-1-gioithieubanthan.md
+  - L1-1-GioiThieuBanThan: vocabulary/L1-1-gioi_thieu_ban_than.md
+  - L1-2-HoiVeNgheNghiep: vocabulary/L1-2-hoi_ve_nghe_nghiep.md
+- Grammar:
+  - L1-1-GioiThieuBanThan: grammar/L1-1-gioi_thieu_ban_than.md
+  - L1-2-HoiVeNgheNghiep: grammar/L1-2-hoi_ve_nghe_nghiep.md
+- Chinese Class:
+  - Day 01: chinese-class/day-01.md  
   
 
 markdown_extensions:
