@@ -1,3 +1,18 @@
+// Bản đồ pinyin sang chữ Trung để phát âm chính xác
+const PINYIN_SAMPLE_MAP = {
+    // a
+    'ā': '阿', 'á': '啊', 'ǎ': '呵', 'à': '吖', 'a': '啊',
+
+    // i
+    'ī': '衣', 'í': '姨', 'ǐ': '以', 'ì': '义', 'i': '一',
+
+    // u
+    'ū': '乌', 'ú': '湖', 'ǔ': '五', 'ù': '物', 'u': '乌',
+
+    // ü
+    'ǖ': '迂', 'ǘ': '鱼', 'ǚ': '雨', 'ǜ': '玉', 'ü': '鱼'
+};
+
 // Hàm đọc tiếng Trung
 // 1. Gán thẳng vào window để HTML onclick có thể tìm thấy
 function speakNormal(text) {
@@ -5,7 +20,7 @@ function speakNormal(text) {
         window.speechSynthesis.cancel();
         const msg = new SpeechSynthesisUtterance(text);
         msg.lang = 'zh-CN';
-        msg.rate = 0.7; // Tốc độ nói bình thường
+        msg.rate = 0.5; // Tốc độ nói bình thường
         window.speechSynthesis.speak(msg);
     }
 }
@@ -18,6 +33,30 @@ function speakSlow(text) {
         msg.rate = 0.35; // Tốc độ nói chậm
         window.speechSynthesis.speak(msg);
     }
+}
+
+// Hàm đọc pinyin của tiếng Trung từ đầu vào
+function readPinyin(pinyin) {
+    if (!pinyin || typeof pinyin !== 'string') {
+        console.error('Pinyin không hợp lệ');
+        return;
+    }
+
+    if (!('speechSynthesis' in window)) {
+        console.error('Trình duyệt không hỗ trợ speechSynthesis');
+        return;
+    }
+
+    const textToSpeak = PINYIN_SAMPLE_MAP[pinyin] || pinyin;
+
+    window.speechSynthesis.cancel();
+
+    const msg = new SpeechSynthesisUtterance(textToSpeak);
+    msg.lang = 'zh-CN';
+    msg.rate = 0.3;   // chậm để nghe rõ thanh
+    msg.pitch = 1.0;
+
+    window.speechSynthesis.speak(msg);
 }
 
 function setupTermynal() {
