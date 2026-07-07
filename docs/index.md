@@ -1,72 +1,51 @@
-# Personal Documentation
+# Chinese Docs
 
-Chào mừng đến với tài liệu cá nhân của tôi. Tài liệu này bao gồm các chủ đề về kiến trúc phần mềm và cơ sở dữ liệu.
+Chào mừng đến với bộ tài liệu học tiếng Trung. Nội dung hiện tại tập trung vào phát âm, từ vựng, ngữ pháp, luyện nói và các buổi học theo từng ngày.
 
-## 📚 Nội dung
+## Nội dung chính
 
-### IELTS
+### Pinyin
 
-- [IELTS Writing] (ielts/writing-test2-templates.md)
+Nền tảng phát âm và thanh điệu.
 
-### Github
+- [01. Giới thiệu về phiên âm](pinyin/01-gioithieuvephienam.md)
+- [02. Thanh điệu](pinyin/02-thanhdieu.md)
+- [03. Thanh mẫu](pinyin/03-thanhmau.md)
+- [04. Vần mẫu](pinyin/04-vanmau.md)
 
-- [Github Overview](github/github.md)
+### Vocabulary
 
-### Micro-monolith
+Các bài học từ vựng theo chủ đề.
 
-Tìm hiểu về kiến trúc Micro-monolith - một cách tiếp cận cân bằng giữa monolith và microservices.
+- [L1-1. Giới thiệu bản thân](vocabulary/L1-1-gioi_thieu_ban_than.md)
+- [L1-2. Hỏi về nghề nghiệp](vocabulary/L1-2-hoi_ve_nghe_nghiep.md)
 
-- [Architecture Overview](micro-monolith/architecture.md)
+### Grammar
 
-### Database
+Các mẫu câu và cấu trúc ngữ pháp tương ứng với bài học.
 
-Hướng dẫn và best practices về cơ sở dữ liệu.
+- [L1-1. Giới thiệu bản thân](grammar/L1-1-gioi_thieu_ban_than.md)
+- [L1-2. Hỏi về nghề nghiệp](grammar/L1-2-hoi_ve_nghe_nghiep.md)
 
-- [PostgreSQL Updates](database/update-postgresql.md)
+### Speaking
 
-### Productivity
+Ghi chú và hướng dẫn cho phần luyện nói.
 
-- [Productivity](productivity/document-summary.md)
+- [IPA guide](speaking/ipa-guide.md)
 
-### Visual Studio Code
+### Chinese Class
 
-- [Visual Studio Code](vscode/vscode-setup.md)
+Tài liệu theo từng buổi học.
 
-## 🚀 Quick Links
+- [Day 01](chinese-class/day-01.md)
+- [Day 02](chinese-class/day-02.md)
 
-- [GitHub Repository](https://github.com/ricardotran92/docs)
+## Bắt đầu nhanh
+
+1. Bắt đầu với [Pinyin](pinyin/01-gioithieuvephienam.md) để nắm phát âm.
+2. Học song song [Vocabulary](vocabulary/L1-1-gioi_thieu_ban_than.md) và [Grammar](grammar/L1-1-gioi_thieu_ban_than.md).
+3. Mở phần [Speaking](speaking/ipa-guide.md) khi muốn luyện nói và ghi âm.
 
 ---
 
 *Tài liệu này được xây dựng bằng [MkDocs](https://www.mkdocs.org/) và [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).*
-
-
-## Syntax
-```
-$ python -m mkdocs serve --dev-addr=0.0.0.0:8888
-```
-
-## Edit system file
-
-Đúng vậy, quy trình chuẩn khi làm việc với MkDocs là như sau (để đảm bảo thay đổi được áp dụng đúng cách và không bị mất khi build lại):
-
-### 1. **Edit source files (không edit built files)**
-   - Bạn nên edit file nguồn trong thư mục docs (ví dụ: custom.js), **không phải** file đã build trong site (như custom.js).
-   - Lý do: File trong site là output của MkDocs (được generate từ source), nên nếu bạn edit trực tiếp custom.js, thay đổi sẽ bị ghi đè khi bạn chạy `mkdocs build` hoặc khi server tự động rebuild.
-
-### 2. **Rebuild site sau khi edit**
-   - Sau khi edit source (ví dụ: thêm/chỉnh sửa hàm `docTiengTrung` trong custom.js), bạn cần rebuild để MkDocs copy và process file đó vào site.
-   - Lệnh: `mkdocs build` (như bạn đã làm).
-
-### 3. **Sử dụng `mkdocs serve` cho development**
-   - Trong môi trường development, bạn có thể chạy `mkdocs serve` (như bạn đang làm trên terminal "mkdocs").
-   - MkDocs thường tự động detect thay đổi trong source files và rebuild/reload page. Tuy nhiên:
-     - Đối với JavaScript/CSS (extra_javascript/extra_css), đôi khi cần manual `mkdocs build` hoặc restart server để chắc chắn.
-     - Nếu page không reload tự động, bạn có thể refresh browser hoặc chạy lại `mkdocs build` trong terminal khác.
-
-### Quy trình cụ thể cho trường hợp này:
-- **Bước 1:** Edit custom.js (thêm hàm `docTiengTrung` như tôi đã làm).
-- **Bước 2:** Chạy `mkdocs build` để update custom.js.
-- **Bước 3:** Nếu `mkdocs serve` đang chạy, page sẽ tự động reload. Nếu không, refresh browser tại `localhost:8001`.
-
-Nếu bạn edit custom.js trực tiếp (như hiện tại), thay đổi sẽ hoạt động tạm thời, nhưng sẽ bị mất khi build lại. Để tránh, hãy chuyển sang edit source file nhé! Nếu cần thêm gì khác, tôi có thể giúp. 😊

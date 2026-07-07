@@ -1,0 +1,8 @@
+mkdocs
+mkdocs-material
+mkdocs-macros-plugin
+mdx-include
+markdown_include_variants
+mkdocs-redirects
+mkdocstrings
+mkdocstrings[python]
