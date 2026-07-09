@@ -44,5 +44,7 @@ Thumbs.db
 
 # Agent
 .github/prompts/
-
+stroke_filtering_output.csv
+.dev.vars
+cloudflare/basic-auth/.wrangler/
 

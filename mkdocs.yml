@@ -114,7 +114,7 @@ nav:
 - Chinese Class:
   - Day 01: chinese-class/day-01.md
   - Day 02: chinese-class/day-02.md
-  
+
 
 markdown_extensions:
   abbr: null

@@ -14,10 +14,10 @@
 | **叫**             | jiào   | Động từ        | là, gọi là                                   |
 
 <div style="display: flex; overflow-x: auto; gap: 10px;">
-<img src="../media/你.png" alt="你" onclick="speakSlow('你')" width=300>
-<img src="../media/好.png" alt="好" onclick="speakSlow('好')" width=300>
-<img src="../media/我.png" alt="我" onclick="speakSlow('我')" width=300>
-<img src="../media/叫.png" alt="叫" onclick="speakSlow('叫')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/20320.png" alt="你" onclick="speakSlow('你')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/22909.png" alt="好" onclick="speakSlow('好')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/25105.png" alt="我" onclick="speakSlow('我')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/21483.png" alt="叫" onclick="speakSlow('叫')" width=300>
 </div>
 
 ---
@@ -64,12 +64,12 @@
 | <button onclick="speakSlow('工程师')">**工程师**</button> | gōngchéngshī | Danh từ (Noun) | kỹ sư              |
 
 <div style="display: flex; overflow-x: auto; gap: 10px;">
-<img src="../media/是.png" alt="是" onclick="speakSlow('是')" width=300>
-<img src="../media/学.png" alt="学" onclick="speakSlow('学')" width=300>
-<img src="../media/生.png" alt="生" onclick="speakSlow('生')" width=300>
-<img src="../media/工.png" alt="工" onclick="speakSlow('工')" width=300>
-<img src="../media/程.png" alt="程" onclick="speakSlow('程')" width=300>
-<img src="../media/师.png" alt="师" onclick="speakSlow('师')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/26159.png" alt="是" onclick="speakSlow('是')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/23398.png" alt="学" onclick="speakSlow('学生')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/29983.png" alt="生" style="margin-left:-10px" onclick="speakSlow('学生')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/24037.png" alt="工" onclick="speakSlow('工程师')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/31243.png" alt="程" style="margin-left:-10px" onclick="speakSlow('工程师')" width=300>
+<img src="https://www.strokeorder.com/assets/bishun/guide/24072.png" alt="师" style="margin-left:-10px" onclick="speakSlow('工程师')" width=300>
 </div>
 
 ---
@@ -96,3 +96,17 @@
 - Triệu Dương là kỹ sư.
 
 ## L1-2 Hỏi về nghề nghiệp
+
+## Stroke
+
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=20320' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=22909' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=25105' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=21483' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=26159' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<image src='https://www.strokeorder.com/assets/bishun/animation/23398.gif' width=300>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=29983' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=24037' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=31243' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<image src='https://www.strokeorder.com/assets/bishun/animation/24072.gif' width=300>

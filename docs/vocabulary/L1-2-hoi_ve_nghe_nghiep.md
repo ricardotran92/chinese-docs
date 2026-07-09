@@ -28,10 +28,12 @@ Characters: **她，他，老师，不**
 > * Khi đứng trước các thanh 1, thanh 2, và thanh 3, nó vẫn giữ nguyên là **bù**.
 
 <div style="display: flex; overflow-x: auto; gap: 10px;">
-<img src="../media/她.png" alt="她" width=300 onclick="speakSlow('她')">
-<img src="../media/他.png" alt="他" width=300 onclick="speakSlow('他')">
-<img src="../media/老师.webp" alt="老师" width=600 onclick="speakSlow('老师')">
-<img src="../media/不.png" alt="不" width=300 onclick="speakSlow('不')">
+<img src="https://www.strokeorder.com/assets/bishun/guide/22905.png" alt="她" width=300 onclick="speakSlow('她')">
+<img src="https://www.strokeorder.com/assets/bishun/guide/20182.png" alt="他" width=300 onclick="speakSlow('他')">
+<img src="https://www.strokeorder.com/assets/bishun/guide/32769.png" alt="老" width=300 onclick="speakSlow('老师')">
+<img src="https://www.strokeorder.com/assets/bishun/guide/24072.png" alt="师" width=300 style="margin-left:-10px;" onclick="speakSlow('老师')">
+<img src="https://www.strokeorder.com/assets/bishun/guide/19981.png" alt="不" width=300 onclick="speakSlow('不')">
+
 </div>
 
 ---
@@ -75,3 +77,10 @@ Characters: **她，他，老师，不**
 
 ---
 
+## Stroke
+
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=22905' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=20182' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=32769' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>
+<image src='https://www.strokeorder.com/assets/bishun/animation/24072.gif' width=300>
+<iframe src='https://stroke-order.learningweb.moe.edu.tw/dictFrame.jsp?ID=19981' frameborder=0 width=300 height=520 allow='fullscreen'></iframe>

@@ -1,0 +1,10 @@
+name = "chinese-docs-basic-auth"
+main = "src/worker.js"
+compatibility_date = "2026-07-09"
+
+[vars]
+ORIGIN_BASE_URL = "https://ricardotran92.github.io/chinese-docs"
+REALM = "Chinese Docs"
+
+# Bind the worker to your custom domain route in Cloudflare, for example:
+# docs.example.com/*
