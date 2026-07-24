@@ -40,6 +40,10 @@ Tài liệu theo từng buổi học.
 - [Day 01](chinese-class/day-01.md)
 - [Day 02](chinese-class/day-02.md)
 
+### Daily Conversation
+
+
+
 ## Bắt đầu nhanh
 
 1. Bắt đầu với [Pinyin](pinyin/01-gioithieuvephienam.md) để nắm phát âm.
