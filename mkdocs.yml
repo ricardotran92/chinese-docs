@@ -105,18 +105,44 @@ nav:
   - 02. Thanh điệu: pinyin/02-thanhdieu.md
   - 03. Thanh mẫu: pinyin/03-thanhmau.md
   - 04. Vận mẫu: pinyin/04-vanmau.md
+
 - Vocabulary:
   - L1-1. Giới thiệu bản thân: vocabulary/L1-1-gioi_thieu_ban_than.md
   - L1-2. Hỏi về nghề nghiệp: vocabulary/L1-2-hoi_ve_nghe_nghiep.md
+  - L1-3. Quốc tịch: vocabulary/L1-3-quoc_tich.md
+  - L1-4. Thành viên trong gia đình: vocabulary/L1-4-thanh_vien_trong_gia_dinh.md
+  - L1-4.2. Thành viên trong gia đình: vocabulary/L1-4.2-thanh_vien_trong_gia_dinh.md
+  - L1-5. Khả năng ngôn ngữ: vocabulary/L1-5-kha_nang_ngon_ngu.md
+
 - Grammar:
   - L1-1. Giới thiệu bản thân: grammar/L1-1-gioi_thieu_ban_than.md
   - L1-2. Hỏi về nghề nghiệp: grammar/L1-2-hoi_ve_nghe_nghiep.md
+  - L1-3. Quốc tịch: grammar/L1-3-quoc_tich.md
+  - L1-4. Thành viên trong gia đình: grammar/L1-4-thanh_vien_trong_gia_dinh.md
+  - L1-5.1. Khả năng ngôn ngữ: grammar/L1-5.1-kha_nang_ngon_ngu.md
+  - L1-5.2. Khả năng ngôn ngữ: grammar/L1-5.2-kha_nang_ngon_ngu.md
+  - L1-5.3. Khả năng ngôn ngữ: grammar/L1-5.3-kha_nang_ngon_ngu.md
+
+- Main Lesson:
+  - L1-1. Giới thiệu bản thân: main-lesson/L1-1-gioi_thieu_ban_than.md
+  - L1-2. Hỏi về nghề nghiệp: main-lesson/L1-2-hoi_ve_nghe_nghiep.md
+  - L1-3. Quốc tịch: main-lesson/L1-3-quoc_tich.md
+  - L1-4. Thành viên trong gia đình: main-lesson/L1-4-thanh_vien_trong_gia_dinh.md
+  - L1-5. Khả năng ngôn ngữ: main-lesson/L1-5-kha_nang_ngon_ngu.md
+
+- Test:
+  - L1-3. Quốc tịch: test/L1-3-quoc_tich.md
+
+- Communication:
+  - L1-1. Chữ số - 1: communication/L1-1-chu_so_1.md
+
 - Chinese Class:
   - Day 01: chinese-class/day-01.md
   - Day 02: chinese-class/day-02.md
-- Daily Conversation:
-  - Proper Noun: daily-conversation/proper-noun.md
-  - Dining: daily-conversation/dining.md
+  
+- Self-Study:
+  - Proper Noun: self-study/proper-noun.md
+  - Dining: self-study/dining.md
 
 
 markdown_extensions:
