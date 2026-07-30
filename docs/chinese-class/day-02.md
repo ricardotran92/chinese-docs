@@ -4,17 +4,17 @@ Dưới đây là bảng số đếm từ 1 đến 10 bằng tiếng Trung (Gi�
 
 | Số | Hán tự | Pinyin | Âm bồi tiếng Việt | Ghi chú cách đọc |
 | --- | --- | --- | --- | --- |
-| **0** | <button onclick="speakSlow('零')">**零**</button> | líng | Líng | Dùng để chỉ số 0. |
-| **1** | <button onclick="speakSlow('一')">**一**</button> | yī | Y | Đọc kéo dài, ngang như không dấu. |
-| **2** | <button onclick="speakSlow('二')">**二**</button> | èr | Ớ (r) | Đọc giống "ớ" và uốn lưỡi nhẹ ở cuối. |
-| **3** | <button onclick="speakSlow('三')">**三**</button> | sān | San | Âm "an" đọc dẹt miệng, giọng ngang. |
-| **4** | <button onclick="speakSlow('四')">**四**</button> | sì | Sư | Đọc giống "sư" nhưng cắn nhẹ răng, đẩy hơi ra. |
-| **5** | <button onclick="speakSlow('五')">**五**</button> | wǔ | wu | Đọc giống dấu hỏi của tiếng Việt. |
-| **6** | <button onclick="speakSlow('六')">**六**</button> | liù | Liêu | Đọc nhanh, dứt khoát (thanh 4). |
-| **7** | <button onclick="speakSlow('七')">**七**</button> | qī | Chi | Đọc giống "chi" nhưng đẩy hơi mạnh qua kẽ răng. |
-| **8** | <button onclick="speakSlow('八')">**八**</button> | bā | Ba | Chữ **b** đọc thành **p** (không bật hơi). |
-| **9** | <button onclick="speakSlow('九')">**九**</button> | jiǔ | Chiểu | Đọc giống "chiểu" (dấu hỏi). |
-| **10** | <button onclick="speakSlow('十')">**十**</button> | shí | Sứ | Đọc giống "sứ", uốn lưỡi lên vòm họng. |
+| **0** | <button onclick="speakSlow('零')"><span class="hanzi">**零**</span></button> | líng | Líng | Dùng để chỉ số 0. |
+| **1** | <button onclick="speakSlow('一')"><span class="hanzi">**一**</span></button> | yī | Y | Đọc kéo dài, ngang như không dấu. |
+| **2** | <button onclick="speakSlow('二')"><span class="hanzi">**二**</span></button> | èr | Ớ (r) | Đọc giống "ớ" và uốn lưỡi nhẹ ở cuối. |
+| **3** | <button onclick="speakSlow('三')"><span class="hanzi">**三**</span></button> | sān | San | Âm "an" đọc dẹt miệng, giọng ngang. |
+| **4** | <button onclick="speakSlow('四')"><span class="hanzi">**四**</span></button> | sì | Sư | Đọc giống "sư" nhưng cắn nhẹ răng, đẩy hơi ra. |
+| **5** | <button onclick="speakSlow('五')"><span class="hanzi">**五**</span></button> | wǔ | wụ | Đọc giống dấu hỏi của tiếng Việt. |
+| **6** | <button onclick="speakSlow('六')"><span class="hanzi">**六**</span></button> | liù | Liếu | Đọc nhanh, dứt khoát (thanh 4). |
+| **7** | <button onclick="speakSlow('七')"><span class="hanzi">**七**</span></button> | qī | Chi | Đọc giống "chi" nhưng đẩy hơi mạnh qua kẽ răng. |
+| **8** | <button onclick="speakSlow('八')"><span class="hanzi">**八**</span></button> | bā | Ba | Chữ **b** đọc thành **p** (không bật hơi). |
+| **9** | <button onclick="speakSlow('九')"><span class="hanzi">**九**</span></button> | jiǔ | Chiệu | Đọc giống "chiệu" (dấu hỏi). |
+| **10** | <button onclick="speakSlow('十')"><span class="hanzi">**十**</span></button> | shí | Sứ | Đọc giống "sứ", uốn lưỡi lên vòm họng. |
 
 <div style="display: flex; overflow-x: auto; gap: 10px;">
 
@@ -59,7 +59,7 @@ Dưới đây là bảng với bộ chữ **Hán Giản thể** chuẩn, vuông 
 | **1 + 4** | <button onclick="speakSlow('高兴')">**高兴**</button> | gāo xìng | Cao xinh | Vui vẻ |
 | **1 + 5** | <button onclick="speakSlow('杯子')">**杯子**</button> | bēi zi | Bây chừ | Cái cốc |
 
-### **Hàng 2: Thanh 2 (Sắc)**
+### **Hàng 2: Thanh 2 (Sắc) ~ VN (Huyền)**
 
 | Tổ hợp | Hán tự | Pinyin | Âm bồi tiếng Việt | Nghĩa |
 | --- | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ Dưới đây là bảng với bộ chữ **Hán Giản thể** chuẩn, vuông 
 | **2 + 4** | <button onclick="speakSlow('前面')">**前面**</button> | qián miàn | Chiến miên | Phía trước |
 | **2 + 5** | <button onclick="speakSlow('儿子')">**儿子**</button> | ér zi | Ớ chừ | Con trai |
 
-### **Hàng 3: Thanh 3 (Hỏi)**
+### **Hàng 3: Thanh 3 (Mũ ngược) ~ VN (Nặng)**
 
 | Tổ hợp | Hán tự | Pinyin | Âm bồi tiếng Việt | Nghĩa |
 | --- | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Dưới đây là bảng với bộ chữ **Hán Giản thể** chuẩn, vuông 
 | **3 + 4** | <button onclick="speakSlow('米饭')">**米饭**</button> | mǐ fàn | Mỉ phàn | Cơm |
 | **3 + 5** | <button onclick="speakSlow('我们')">**我们**</button> | wǒ men | Ủa mơn | Chúng tôi |
 
-### **Hàng 4: Thanh 4 (Nặng/Huyền)**
+### **Hàng 4: Thanh 4 (Huyền) ~ VN (Sắc)**
 
 | Tổ hợp | Hán tự | Pinyin | Âm bồi tiếng Việt | Nghĩa |
 | --- | --- | --- | --- | --- |
